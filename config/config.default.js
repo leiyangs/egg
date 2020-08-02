@@ -6,6 +6,8 @@ module.exports = app =>{
   let config = {};
   config.keys = app.name+new Date(); // 配置加密key
   config.view = { //配置视图
+    defaultExtension: '.html', // 默认扩展名：如果渲染一个文件的扩展名没有指定并且找不到这个文件，就会默认扩展名为.html再次寻找
+    defaultViewEngine: 'nunjucks', // 默认渲染：如果摸个文件的扩展名没有在mapping中配置，默认nunjucks处理
     mapping: {
       '.html': 'nunjucks'
     }

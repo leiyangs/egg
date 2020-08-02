@@ -175,7 +175,7 @@
       "root": [],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
+      "defaultViewEngine": "nunjucks",
       "mapping": {
         ".html": "nunjucks"
       }
