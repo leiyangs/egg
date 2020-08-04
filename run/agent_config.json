@@ -145,12 +145,21 @@
       "root": "E:\\egg\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".html": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "egg",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 48>",
     "cookies": {},
     "proxy": false,
     "maxIpsCount": 0,
@@ -161,7 +170,8 @@
     "pkg": {
       "dependencies": {
         "egg": "^2.27.0",
-        "egg-bin": "^4.15.0"
+        "egg-bin": "^4.15.0",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
@@ -432,6 +442,20 @@
       "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

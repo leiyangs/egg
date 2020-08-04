@@ -1,4 +1,14 @@
 {
+  "keys": "E:\\egg\\config\\config.default.js",
+  "view": {
+    "defaultExtension": "E:\\egg\\config\\config.default.js",
+    "defaultViewEngine": "E:\\egg\\config\\config.default.js",
+    "mapping": {
+      ".html": "E:\\egg\\config\\config.default.js"
+    },
+    "root": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js"
+  },
   "session": {
     "maxAge": "E:\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
     "key": "E:\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
@@ -136,16 +146,15 @@
     "buffer": "E:\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
     "maxFiles": "E:\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
-    "cache": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
-    "defaultExtension": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
-    "defaultViewEngine": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
-    "mapping": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  "nunjucks": {
+    "autoescape": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.local.js"
   },
   "env": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "name": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "keys": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "cookies": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "proxy": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "maxIpsCount": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
@@ -156,7 +165,8 @@
   "pkg": {
     "dependencies": {
       "egg": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-      "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+      "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-view-nunjucks": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
