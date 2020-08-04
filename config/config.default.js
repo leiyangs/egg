@@ -16,5 +16,8 @@ module.exports = app => {
       path.join(app.baseDir, 'app/views')
     ].join(',')
   }
+  config.news = {
+    url: 'http://localhost:3000/news' // 配置远程请求地址
+  }
   return config;
 }
