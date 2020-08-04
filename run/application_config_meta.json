@@ -6,8 +6,11 @@
     "mapping": {
       ".html": "E:\\egg\\config\\config.default.js"
     },
-    "root": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "root": "E:\\egg\\config\\config.default.js",
     "cache": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js"
+  },
+  "news": {
+    "url": "E:\\egg\\config\\config.default.js"
   },
   "session": {
     "maxAge": "E:\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
@@ -166,7 +169,10 @@
     "dependencies": {
       "egg": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+      "egg-view-nunjucks": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "express": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "mockjs": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "path": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"

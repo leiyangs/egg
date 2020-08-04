@@ -22,9 +22,11 @@ egg-bin dev
 ```
 
 ## 服务端渲染项目
+
 项目运行是会自动创建public文件夹，用来存放静态文件
 
 利用nunjucks模板引擎,egg-view-nunjucks是egg的插件
+
 ```npm
 cnpm install egg-view-nunjucks --save
 ```
