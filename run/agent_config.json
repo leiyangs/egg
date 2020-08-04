@@ -454,13 +454,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
-      "from": "E:\\egg\\config\\plugin.js",
-      "path": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
-=======
       "from": "F:\\exercise\\egg\\config\\plugin.js",
       "path": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
->>>>>>> 8bbaf1925f53166a8369b5c59079a169fe5403c4
       "version": "2.2.0"
     }
   }

@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-  "keys": "E:\\egg\\config\\config.default.js",
-  "view": {
-    "defaultExtension": "E:\\egg\\config\\config.default.js",
-    "defaultViewEngine": "E:\\egg\\config\\config.default.js",
-    "mapping": {
-      ".html": "E:\\egg\\config\\config.default.js"
-    },
-    "root": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
-    "cache": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js"
-=======
   "keys": "F:\\exercise\\egg\\config\\config.default.js",
   "view": {
     "defaultExtension": "F:\\exercise\\egg\\config\\config.default.js",
@@ -19,7 +8,6 @@
     },
     "root": "F:\\exercise\\egg\\config\\config.default.js",
     "cache": "F:\\exercise\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js"
->>>>>>> 8bbaf1925f53166a8369b5c59079a169fe5403c4
   },
   "session": {
     "maxAge": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
@@ -159,28 +147,6 @@
     "maxFiles": "F:\\exercise\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
   },
   "nunjucks": {
-<<<<<<< HEAD
-    "autoescape": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
-    "cache": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.local.js"
-  },
-  "env": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "name": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "cookies": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "proxy": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "maxIpsCount": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "maxProxyCount": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "ipHeaders": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "hostHeaders": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-  "pkg": {
-    "dependencies": {
-      "egg": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-      "egg-bin": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
-=======
     "autoescape": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
     "throwOnUndefined": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
     "trimBlocks": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
@@ -202,7 +168,6 @@
       "egg-bin": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "path": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
->>>>>>> 8bbaf1925f53166a8369b5c59079a169fe5403c4
     },
     "devDependencies": {
       "egg-bin": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
