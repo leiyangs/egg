@@ -2,7 +2,8 @@
   "dependencies": {
     "egg": "^2.27.0",
     "egg-bin": "^4.15.0",
-    "egg-view-nunjucks": "^2.2.0"
+    "egg-view-nunjucks": "^2.2.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"

@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.css">
   <title>news</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        {% for item in list %}
+        <div class="panel panel-default">
+          <h1 class="text-center">{{item.title}}</h1>
+        </div>
+        <div class="panle-body">
+          <a href="{{item.url}}">
+            <img src="{{item.image}}" alt="" width="100%">
+          </a>
+        </div>
+        <div class="panel-footer">
+          <h3>发布时间{{item.createAt}}</h3>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </body>
 </html>
