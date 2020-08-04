@@ -20,4 +20,8 @@ app.get('/news', function(req,res){
   res.json(result);
 })
 
+app.get('/title', function(req,res) {
+  res.json({title: '新闻列表'})
+})
+
 app.listen(3000);
