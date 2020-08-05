@@ -22,5 +22,17 @@ module.exports = app => {
   config.cache = {
     url: 'http://localhost:3000/title' // 请求title的地址
   }
+  config.mysql = { // 配置数据源
+    // 单数据库信息配置’
+    client: {
+      host: 'localhost', // host
+      port: '3307', // 端口
+      user: 'root', // 用户名
+      password: 'root', // 密码
+      database: 'cms-development' // 数据库名
+    },
+    app: true, // 是否加载到App上，默认开启
+    agent: false // 实付加载到agent(代理)上，默认关闭
+  }
   return config;
 }

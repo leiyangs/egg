@@ -17,7 +17,7 @@ cnpm i egg-bin -S -D
 
 ## 配置script
 
-```json
+```npm
 egg-bin dev
 ```
 
@@ -36,7 +36,6 @@ cnpm install egg-view-nunjucks --save
 egg的文件夹名称是规定好的
 
 ```json
-
 ├── package.json
 ├── app.js (app.js 和 agent.js 用于自定义启动时的初始化工作)
 ├── agent.js (可选)
@@ -81,4 +80,21 @@ egg的文件夹名称是规定好的
     |   └── response_time.test.js
     └── controller
         └── home.test.js
+```
+
+## MySQL
+
+框架提供了 egg-mysql 插件来访问 MySQL 数据库。这个插件既可以访问普通的 MySQL 数据库，也可以访问基于 MySQL 协议的在线数据库服务。
+
+```npm
+cnpm i --save egg-mysql
+```
+
+开启插件 config/plugin.js
+
+```js
+exports.mysql = {
+  enable: true,
+  package: 'egg-mysql',
+};
 ```

@@ -3,12 +3,18 @@ const { Service } = require('egg');
 module.exports = class NewsService extends Service {
   async list(limit) {
     const {ctx} = this;
-    let url = this.config.news.url; // localhost:3000
+    // 调用远程接口
+    /* let url = this.config.news.url; // localhost:3000
     let result = await ctx.curl(url, { // curl请求接口方法
       method: 'get',
       data: {limit},
       dataType: 'json'
     })
-    return result.data.data;
+    return result.data.data; */
+
+    // 查询数据库
+    // query是执行SQL语句的意思
+    let result = await this.app.mysql.query(`SELECT * FROM news LIMIT ${limit}`);
+    return result;
   }
 };

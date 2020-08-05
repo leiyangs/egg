@@ -15,6 +15,21 @@
   "cache": {
     "url": "F:\\exercise\\egg\\config\\config.default.js"
   },
+  "mysql": {
+    "client": {
+      "host": "F:\\exercise\\egg\\config\\config.default.js",
+      "port": "F:\\exercise\\egg\\config\\config.default.js",
+      "user": "F:\\exercise\\egg\\config\\config.default.js",
+      "password": "F:\\exercise\\egg\\config\\config.default.js",
+      "database": "F:\\exercise\\egg\\config\\config.default.js"
+    },
+    "app": "F:\\exercise\\egg\\config\\config.default.js",
+    "agent": "F:\\exercise\\egg\\config\\config.default.js",
+    "default": {
+      "database": "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    }
+  },
   "session": {
     "maxAge": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
     "key": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
@@ -172,6 +187,7 @@
     "dependencies": {
       "egg": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-bin": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-mysql": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "express": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "mockjs": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",

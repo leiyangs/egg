@@ -106,6 +106,7 @@
         "F:\\exercise\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
         "F:\\exercise\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
         "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\locales",
+        "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\locales",
         "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\locales",
         "F:\\exercise\\egg\\config\\locales"
       ],
@@ -189,6 +190,21 @@
       "lstripBlocks": false,
       "cache": false
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3307",
+        "user": "root",
+        "password": "<String len: 4>",
+        "database": "cms-development"
+      }
+    },
     "env": "local",
     "name": "egg",
     "keys": "<String len: 2>",
@@ -203,6 +219,7 @@
       "dependencies": {
         "egg": "^2.27.0",
         "egg-bin": "^4.15.0",
+        "egg-mysql": "^3.0.0",
         "egg-view-nunjucks": "^2.2.0",
         "express": "^4.17.1",
         "mockjs": "^1.1.0",
@@ -518,6 +535,17 @@
       "from": "F:\\exercise\\egg\\config\\plugin.js",
       "path": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\exercise\\egg\\config\\plugin.js",
+      "path": "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql",
+      "version": "3.0.0"
     }
   }
 }
