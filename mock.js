@@ -21,7 +21,7 @@ app.get('/news', function(req,res){
 })
 
 app.get('/title', function(req,res) {
-  res.json({title: '新闻列表'})
+  res.json({title: `新闻列表${new Date().toLocaleString()}`})
 })
 
 app.listen(3000);

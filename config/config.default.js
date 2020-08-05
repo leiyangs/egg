@@ -19,5 +19,8 @@ module.exports = app => {
   config.news = {
     url: 'http://localhost:3000/news' // 配置远程请求地址
   }
+  config.cache = {
+    url: 'http://localhost:3000/title' // 请求title的地址
+  }
   return config;
 }

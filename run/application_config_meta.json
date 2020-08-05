@@ -12,6 +12,9 @@
   "news": {
     "url": "F:\\exercise\\egg\\config\\config.default.js"
   },
+  "cache": {
+    "url": "F:\\exercise\\egg\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
     "key": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",

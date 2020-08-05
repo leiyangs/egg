@@ -36,7 +36,7 @@ class NewsController extends Controller {
     // -----------------------------------------------------------------
     let limit = ctx.query ? ctx.query.limit : 5;
     let list = await this.service.news.list(limit);
-    await ctx.render('news',{list, title: "新闻列表"});
+    await ctx.render('news',{list:list, title:ctx.app.cache ? ctx.app.cache.title : '新闻列表'});
     // -----------------------------------------------------------------
   }
 }

@@ -142,7 +142,7 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\exercise\\egg\\app\\view,F:\\exercise\\egg\\path\\to\\another",
+      "root": "F:\\exercise\\egg\\app\\views",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -172,6 +172,8 @@
         "egg": "^2.27.0",
         "egg-bin": "^4.15.0",
         "egg-view-nunjucks": "^2.2.0",
+        "express": "^4.17.1",
+        "mockjs": "^1.1.0",
         "path": "^0.12.7"
       },
       "devDependencies": {
@@ -293,6 +295,12 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "url": "http://localhost:3000/news"
+    },
+    "cache": {
+      "url": "http://localhost:3000/title"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"
