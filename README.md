@@ -34,6 +34,9 @@ cnpm install egg-view-nunjucks --save
 ## 项目结构
 
 egg的文件夹名称是规定好的
+
+```json
+
 ├── package.json
 ├── app.js (app.js 和 agent.js 用于自定义启动时的初始化工作)
 ├── agent.js (可选)
@@ -78,3 +81,4 @@ egg的文件夹名称是规定好的
     |   └── response_time.test.js
     └── controller
         └── home.test.js
+```
