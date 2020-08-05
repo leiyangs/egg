@@ -36,6 +36,7 @@ class NewsController extends Controller {
     // -----------------------------------------------------------------
     let limit = ctx.query ? ctx.query.limit : 5;
     let list = await this.service.news.list(limit);
+    list = list instanceof Array ? list : [list]; // 做兼容 mockjs只生成一条数据时list是对象
     await ctx.render('news',{list:list, title:ctx.app.cache ? ctx.app.cache.title : '新闻列表'});
     // -----------------------------------------------------------------
   }
