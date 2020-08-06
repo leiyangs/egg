@@ -30,6 +30,14 @@
       "connectionLimit": "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
     }
   },
+  "sequelize": {
+    "dialect": "F:\\exercise\\egg\\config\\config.default.js",
+    "host": "F:\\exercise\\egg\\config\\config.default.js",
+    "port": "F:\\exercise\\egg\\config\\config.default.js",
+    "username": "F:\\exercise\\egg\\config\\config.default.js",
+    "password": "F:\\exercise\\egg\\config\\config.default.js",
+    "database": "F:\\exercise\\egg\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
     "key": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
@@ -188,9 +196,11 @@
       "egg": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-bin": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-mysql": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-sequelize": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "express": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "mockjs": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "mysql2": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "path": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "devDependencies": {

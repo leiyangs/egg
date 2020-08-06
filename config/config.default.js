@@ -34,5 +34,13 @@ module.exports = app => {
     app: true, // 是否加载到App上，默认开启
     agent: false // 实付加载到agent(代理)上，默认关闭
   }
+  config.sequelize = {
+    dialect: 'mysql',
+    host: 'localhost',
+    port: 3307,
+    username: 'root',
+    password: 'root',
+    database: 'cms-development'
+  }
   return config;
 }

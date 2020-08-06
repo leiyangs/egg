@@ -98,3 +98,116 @@ exports.mysql = {
   package: 'egg-mysql',
 };
 ```
+
+## Sequelize
+
+在一些较为复杂的应用中，我们可能会需要一个 ORM 框架来帮助我们管理数据层的代码。而在 Node.js 社区中，sequelize 是一个广泛使用的 ORM 框架，它支持 MySQL、PostgreSQL、SQLite 和 MSSQL 等多个数据源
+
+- 安装
+
+egg-sequelize插件会辅助我们将定义好的Model对象加载到app和ctx上
+
+```npm
+cnpm install --save egg-sequelize mysql2
+```
+
+- 启用插件
+
+```js
+exports.sequelize = {
+  enable: true,
+  package: 'egg-sequelize',
+};
+```
+
+- sequelize 配置
+
+```js
+// config/config.default.js
+config.sequelize = {
+    dialect: 'mysql',
+    host: 'localhost',
+    port: 3306,
+    username: "root",
+    password: "root",
+    database: 'cms-development'
+};
+
+// config/config.test.js
+module.exports=app => {
+    let config={};
+    config.sequelize = {
+        dialect: 'mysql',
+        host: 'localhost',
+        port: 3306,
+        username: "root",
+        password: "root",
+        database: 'cms-test',
+    };
+    return config;
+}
+```
+
+- 初始化数据库
+
+sequelize 提供了 sequelize-cli 工具来实现 Migrations
+sequelize-cli用于支持数据迁移和项目引导。通过迁移，可以将现有数据库迁移到另一个状态，反之亦然
+这些迁移文件会被保存在迁移文件中，迁移文件描述了怎样到达新状态以及如何恢复更改以返回到迁移前的旧状态
+
+```npm
+cnpm install --save sequelize sequelize-cli
+```
+
+- sequelizerc
+
+我们希望将所有数据库 Migrations 相关的内容都放在database 目录下，所以我们在项目根目录下新建一个 .sequelizerc 配置文件
+config 包含配置文件，它告诉 CLI 如何连接数据库
+migrations-path 包含所有迁移文件
+seeders-path 包含所有种子文件,seeders 来在初始化数据表中中初始化一些基础数据
+models-path 包含您的项目的所有模型
+
+```js
+const path = require('path');
+module.exports = {
+  config: path.join(__dirname, 'database/config.json'),
+  'migrations-path': path.join(__dirname, 'database/migrations'),
+  'seeders-path': path.join(__dirname, 'database/seeders'),
+  'models-path': path.join(__dirname, 'app/model'),
+};
+```
+
+- 初始化 Migrations
+
+在项目的演进过程中，每一个迭代都有可能对数据库数据结构做变更，怎样跟踪每一个迭代的数据变更，并在不同的环境（开发、测试、CI）和迭代切换中，快速变更数据结构呢？这时候我们就需要 Migrations 来帮我们管理数据结构的变更了
+初始化 Migrations 配置文件和目录
+执行完后会生成 database/config.json 文件和 database/migrations
+
+```npm
+npx sequelize init:config
+npx sequelize init:migrations
+```
+
+key是环境变量NODE_ENV的值，默认就是 development
+set NODE_ENV=test
+
+```json
+config.json
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "cms-development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "cms-test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
+```
