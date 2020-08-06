@@ -5,4 +5,5 @@ module.exports = app => {
   const {router, controller} = app;
   // 定义路由规则(当客户通过get方式访问news的时候，有index函数返回内容)
   router.get("/news", controller.news.index);
+  router.get('/users', controller.users.index);
 }

@@ -201,7 +201,9 @@
       "express": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "mockjs": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
       "mysql2": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+      "path": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "sequelize": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "sequelize-cli": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"

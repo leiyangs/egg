@@ -38,9 +38,9 @@ module.exports = app => {
     dialect: 'mysql',
     host: 'localhost',
     port: 3307,
-    username: 'root',
-    password: 'root',
+    username: "root",
+    password: "root",
     database: 'cms-development'
-  }
+  };
   return config;
 }

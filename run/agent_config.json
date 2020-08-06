@@ -172,6 +172,14 @@
         "database": "cms-development"
       }
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "cms-development",
+      "host": "localhost",
+      "port": 3307,
+      "username": "root",
+      "password": "<String len: 4>"
+    },
     "env": "local",
     "name": "egg",
     "keys": "<String len: 2>",
@@ -187,10 +195,14 @@
         "egg": "^2.27.0",
         "egg-bin": "^4.15.0",
         "egg-mysql": "^3.0.0",
+        "egg-sequelize": "^5.2.2",
         "egg-view-nunjucks": "^2.2.0",
         "express": "^4.17.1",
         "mockjs": "^1.1.0",
-        "path": "^0.12.7"
+        "mysql2": "^2.1.0",
+        "path": "^0.12.7",
+        "sequelize": "^6.3.4",
+        "sequelize-cli": "^6.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
@@ -492,6 +504,17 @@
       "from": "F:\\exercise\\egg\\config\\plugin.js",
       "path": "F:\\exercise\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\exercise\\egg\\config\\plugin.js",
+      "path": "F:\\exercise\\egg\\node_modules\\_egg-sequelize@5.2.2@egg-sequelize",
+      "version": "5.2.2"
     }
   }
 }
