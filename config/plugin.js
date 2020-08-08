@@ -12,3 +12,7 @@ exports.sequelize = {
   enable: true,
   package: 'egg-sequelize',
 };
+
+exports.i18n = {
+  defaultLocale: 'zh-CN'
+}
