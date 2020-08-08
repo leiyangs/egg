@@ -157,29 +157,6 @@
       "lstripBlocks": false,
       "cache": false
     },
-    "mysql": {
-      "default": {
-        "database": null,
-        "connectionLimit": 5
-      },
-      "app": true,
-      "agent": false,
-      "client": {
-        "host": "localhost",
-        "port": "3307",
-        "user": "root",
-        "password": "<String len: 4>",
-        "database": "cms-development"
-      }
-    },
-    "sequelize": {
-      "dialect": "mysql",
-      "database": "cms-development",
-      "host": "localhost",
-      "port": 3307,
-      "username": "root",
-      "password": "<String len: 4>"
-    },
     "env": "local",
     "name": "egg",
     "keys": "<String len: 2>",
@@ -328,6 +305,25 @@
     },
     "cache": {
       "url": "http://localhost:3000/title"
+    },
+    "mysql": {
+      "client": {
+        "host": "localhost",
+        "port": "3307",
+        "user": "root",
+        "password": "<String len: 4>",
+        "database": "cms-development"
+      },
+      "app": true,
+      "agent": false
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "host": "localhost",
+      "port": 3307,
+      "username": "root",
+      "password": "<String len: 4>",
+      "database": "cms-development"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
@@ -494,28 +490,6 @@
       "from": "E:\\egg\\config\\plugin.js",
       "path": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
-    },
-    "mysql": {
-      "enable": true,
-      "package": "egg-mysql",
-      "name": "mysql",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\egg\\config\\plugin.js",
-      "path": "E:\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql",
-      "version": "3.0.0"
-    },
-    "sequelize": {
-      "enable": true,
-      "package": "egg-sequelize",
-      "name": "sequelize",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\egg\\config\\plugin.js",
-      "path": "E:\\egg\\node_modules\\_egg-sequelize@5.2.2@egg-sequelize",
-      "version": "5.2.2"
     }
   }
 }

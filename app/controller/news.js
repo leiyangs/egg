@@ -42,7 +42,7 @@ class NewsController extends Controller {
   }
   async greeting() {
     const {ctx} = this;
-    ctx.body = ctx.__('Email')+ctx.__('Welcome back,$s!','联盟')+ctx.__('Hello {0},I am {1}',['baby','bob']);
+    ctx.body = ctx.__('Welcome back, %s!','联盟')+ctx.__('Hello {0},I am {1}',['baby','bob']);
   }
 }
 module.exports = NewsController;

@@ -24,11 +24,7 @@
       "database": "E:\\egg\\config\\config.default.js"
     },
     "app": "E:\\egg\\config\\config.default.js",
-    "agent": "E:\\egg\\config\\config.default.js",
-    "default": {
-      "database": "E:\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
-      "connectionLimit": "E:\\egg\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
-    }
+    "agent": "E:\\egg\\config\\config.default.js"
   },
   "sequelize": {
     "dialect": "E:\\egg\\config\\config.default.js",

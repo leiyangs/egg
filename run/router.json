@@ -19,6 +19,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/greeting",
+    "regexp": "/^\\/greeting(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/users",
     "regexp": "/^\\/users(?:\\/(?=$))?$/",
     "stack": [
