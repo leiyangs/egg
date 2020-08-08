@@ -41,6 +41,14 @@ module.exports = app => {
     username: "root",
     password: "root",
     database: 'cms-development'
-  };
+  }
+  config.middleware=[ // 要启用的中间件
+    'robot'
+  ]
+  config.robot={
+    ua: [
+      /Chrome/
+    ]
+  }
   return config;
 }
