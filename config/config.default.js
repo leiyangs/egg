@@ -47,7 +47,7 @@ module.exports = app => {
   ]
   config.robot={
     ua: [
-      /Chrome/
+      /Firefox/
     ]
   }
   return config;

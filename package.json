@@ -2,6 +2,7 @@
   "dependencies": {
     "egg": "^2.27.0",
     "egg-bin": "^4.15.0",
+    "egg-mock": "^4.0.0",
     "egg-mysql": "^3.0.0",
     "egg-sequelize": "^5.2.2",
     "egg-view-nunjucks": "^2.2.0",
@@ -13,14 +14,16 @@
     "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.15.0"
+    "egg-bin": "^4.15.0",
+    "egg-mock": "^4.0.0"
   },
   "name": "egg",
   "description": "- [egg](https://eggjs.org/zh-cn/intro/)\r - 提供基于 Egg 定制上层框架的能力\r - 高度可扩展的插件机制\r - 内置多进程管理\r - 基于 Koa 开发，性能优异\r - 框架稳定，测试覆盖率高\r - 渐进式开发",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "test": "egg-bin test"
   },
   "repository": {
     "type": "git",

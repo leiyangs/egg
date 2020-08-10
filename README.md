@@ -220,7 +220,9 @@ config.json
 npx sequelize migration:generate --name=init-users
 // 执行完后会在 database/migrations 目录下生成一个 migration 文件(${timestamp}-init-users.js)
 ```
+
 创建升级脚本
+
 ```js
 // database\migrations\20190608143311-init-users.js
 module.exports = {
@@ -328,4 +330,11 @@ class UserController extends Controller {
     }
 }
 module.exports = UserController;
+```
+
+单元测试
+
+```json
+添加命令 "test": "egg-bin test"
+安装egg-mock npm i egg-mock -S -D
 ```
