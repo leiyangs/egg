@@ -7,4 +7,7 @@ module.exports = app => {
   router.get("/news", controller.news.index);
   router.get('/greeting', controller.news.greeting);
   router.get('/users', controller.users.index);
+  // 测试用到的路由
+  router.get('/add',controller.user.add);
+  router.post('/doAdd',controller.user.doAdd);
 }

@@ -88,27 +88,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\exercise\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-security@2.8.0@egg-security\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\locales",
-        "F:\\exercise\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock\\lib\\tmp\\config\\locales",
-        "F:\\exercise\\egg\\config\\locale"
+        "E:\\egg\\node_modules\\_egg-session@3.2.0@egg-session\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-security@2.8.0@egg-security\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock\\config\\locales",
+        "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\locales",
+        "E:\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock\\lib\\tmp\\config\\locales",
+        "E:\\egg\\config\\locale"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -119,8 +119,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\exercise\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\exercise\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -143,7 +143,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\user\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg",
+      "tmpdir": "C:\\Users\\Yanglei\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -159,7 +159,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "F:\\exercise\\egg\\app\\public",
+      "dir": "E:\\egg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -167,7 +167,7 @@
     },
     "view": {
       "root": [
-        "F:\\exercise\\egg\\app\\views"
+        "E:\\egg\\app\\views"
       ],
       "cache": true,
       "defaultExtension": ".html",
@@ -232,9 +232,9 @@
       },
       "homepage": "https://github.com/leiyangs/egg#readme"
     },
-    "baseDir": "F:\\exercise\\egg",
-    "HOME": "C:\\Users\\user",
-    "rundir": "F:\\exercise\\egg\\run",
+    "baseDir": "E:\\egg",
+    "HOME": "C:\\Users\\Yanglei",
+    "rundir": "E:\\egg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -266,7 +266,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "F:\\exercise\\egg\\logs\\egg",
+      "dir": "E:\\egg\\logs\\egg",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -393,8 +393,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-session@3.2.0@egg-session",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-session@3.2.0@egg-session",
       "version": "3.2.0"
     },
     "security": {
@@ -406,8 +406,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-security@2.8.0@egg-security",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-security@2.8.0@egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -419,8 +419,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -432,8 +432,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -443,9 +443,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\config\\plugin.js",
+      "from": "E:\\egg\\config\\plugin.js",
       "defaultLocale": "zh-CN",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
+      "path": "E:\\egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -455,8 +455,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -466,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-schedule@3.6.4@egg-schedule",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -479,8 +479,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-multipart@2.10.3@egg-multipart",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-multipart@2.10.3@egg-multipart",
       "version": "2.10.3"
     },
     "logrotator": {
@@ -492,8 +492,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -503,8 +503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-static@2.2.0@egg-static",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -514,8 +514,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-view@2.1.2@egg-view",
+      "from": "E:\\egg\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -528,13 +528,13 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\exercise\\egg\\config\\plugin.js",
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "E:\\egg\\config\\plugin.js",
+      "path": "E:\\egg\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "F:\\exercise\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock",
+      "path": "E:\\egg\\node_modules\\_egg-mock@4.0.0@egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],

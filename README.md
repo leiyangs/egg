@@ -338,3 +338,5 @@ module.exports = UserController;
 添加命令 "test": "egg-bin test"
 安装egg-mock npm i egg-mock -S -D
 ```
+
+test/order.test1.js 是egg-mock的钩子函数
