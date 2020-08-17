@@ -1,4 +1,4 @@
-// egg-mock的钩子函数
+/* // egg-mock的钩子函数
 describe('egg test', () => {
   // 在所有测试用例之间执行
   before(() => console.log('order 1'));
@@ -9,4 +9,4 @@ describe('egg test', () => {
   // 每个测试用例之后执行
   afterEach(() => console.log('order 5'));
   after(() => console.log('order 6'));
-});
+}); */

@@ -8,6 +8,6 @@ module.exports = app => {
   router.get('/greeting', controller.news.greeting);
   router.get('/users', controller.users.index);
   // 测试用到的路由
-  router.get('/add',controller.user.add);
-  router.post('/doAdd',controller.user.doAdd);
+  router.get('/add',controller.users.add);
+  router.post('/doAdd',controller.users.doAdd);
 }
